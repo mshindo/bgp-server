@@ -1,6 +1,11 @@
+bgp-server.rb
+=============
+
+by Motonori Shindo <motonori@shin.do> (2012 - 2016)
+
 This is a very simple BGP4 implementation written by Ruby. The purpose of 
 this code is to allow users to manipulate BGP4 message and send it to the 
-peer with great deal of flexibility. There is no intent to support 
+peer with a great deal of flexibility. There is no intent to support 
 everything that BGP4 is capable of. Because of this design goal, the 
 abstraction level is set to somewhat low on purpose.
 
@@ -11,5 +16,7 @@ client").
 
 Please enjoy!
 
----
-Motonori Shindo (motonori@shin.do)
+License
+-------
+
+GNU General Public License, verion 2 (GPL-2.0)
