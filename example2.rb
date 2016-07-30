@@ -2,7 +2,7 @@
 # example2.rb
 #
 
-require 'bgp-server'
+require './bgp-server.rb'
 
 cap = Capability.new
 cap1 = MpExtensionCapability.new(:ipv4, :unicast)

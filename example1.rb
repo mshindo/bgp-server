@@ -2,7 +2,7 @@
 # example1.rb
 #
 
-require 'bgp-server'
+require_relative 'bgp-server'
 
 open = Open.new(7675, '172.16.167.1')
 openmsg = BgpMsg.new(open)
