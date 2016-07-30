@@ -15,7 +15,7 @@ cap.add(cap3)
 opt = OptionalParameter.new
 opt.add(cap)
 
-open = Open.new(7675, '172.16.167.1', opt)
+open = Open.new(7675, '192.0.2.1', opt)
 openmsg = BgpMsg.new(open)
 
 origin = Origin.new

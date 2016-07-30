@@ -4,14 +4,14 @@
 
 require_relative 'bgp-server'
 
-open = Open.new(7675, '172.16.167.1')
+open = Open.new(7675, '192.0.2.1')
 openmsg = BgpMsg.new(open)
 
 origin = Origin.new
 pathseg1 = AsPathSegment.new([100, 101, 102])
 aspath = AsPath.new
 aspath.add(pathseg1)
-nexthop = NextHop.new('11.0.0.2')
+nexthop = NextHop.new('192.0.2.1')
 localpref = LocalPreference.new
 
 path_attr = PathAttribute.new
